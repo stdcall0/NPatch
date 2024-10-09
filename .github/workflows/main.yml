@@ -46,8 +46,7 @@ jobs:
       with:
         repository: JingMatrix/LSPosed
         path: core
-        submodules: 'recursive'
-        ref: db9b97e53d39bb06d8ba706b74ccf01a80f2221c
+        submodules: 'recursive' # ref: db9b97e53d39bb06d8ba706b74ccf01a80f2221c
 
     - name: Checkout libxposed/service
       uses: actions/checkout@main
