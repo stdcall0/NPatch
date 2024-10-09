@@ -202,6 +202,7 @@ fun Project.configureBaseExtension() {
                 "intermediates",
                 "optimized_processed_res",
                 "release",
+                "optimizeReleaseResources",
                 "resources-release-optimize.ap_"
             )
             val optimized = File("${zip}.opt")
